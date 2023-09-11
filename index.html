@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifóli</title>
+
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Icones-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/home-section.css" />
+    <link rel="stylesheet" href="css/about-section.css" />
+    <link rel="stylesheet" href="css/portfolio-section.css" />
+    <link rel="stylesheet" href="css/skills-section.css" />
+    <link rel="stylesheet" href="css/experience-section.css" />
+    <link rel="stylesheet" href="css/education-section.css" />
+    <link rel="stylesheet" href="css/contact-section.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <ul class="navbar__list" id="menu">
+          <li class="navbar__item">
+            <a class="navbar__link navbar__link--active" href="#home">
+              <i class="fa-solid fa-house"></i>
+              <span class="navbar__text navbar__text--active">HOME</span>
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#about">
+              <i class="fa-solid fa-user"></i>
+              <span class="navbar__text">SOBRE</span>
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#portfolio">
+              <i class="fa-solid fa-briefcase"></i>
+              <span class="navbar__text">PORTIFÓLIO</span>
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#skills">
+              <i class="fa-solid fa-brain"></i>
+              <span class="navbar__text">SKILLS</span>
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#experience">
+              <i class="fa-solid fa-user-tie"></i>
+              <span class="navbar__text">EXPERIÊNCIA</span>
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#education">
+              <i class="fa-solid fa-user-graduate"></i>
+              <span class="navbar__text">EDUCAÇÃO</span>
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#contact">
+              <i class="fa-solid fa-envelope"> </i>
+              <span class="navbar__text">CONTATO</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="navbar__button-wrapper">
+        <button class="navbar__button" id="menu-toggle" onclick="toggleMenu()">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-home" id="home">
+        <div class="section-home__wrapper">
+          <div class="cover-image">
+            <img class="cover-image__image" src="img/ragnar-capa.jpg" alt="" />
+          </div>
+          <div class="sectioon-home__description">
+            <div class="description">
+              <div class="description__content">
+                <span class="description__salutation">OLÁ!</span>
+                <div class="description_title-wrapper">
+                  <span class="description__presentation"> EU SOU </span>
+                  <h1 class="description__title">RAGNAR LOTHBROK</h1>
+                </div>
+                <p class="description__paragraph">
+                  TI'm a Tunisian based web designer & front‑end developer
+                  focused on crafting clean & user‑friendly experiences, I am
+                  passionate about building excellent software that improves the
+                  lives of those around me.
+                </p>
+              </div>
+              <div class="description__link-button">
+                <a class="link-button" href="#about">MAIS</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-about" id="about">
+        <div class="section-about__wrapper">
+          <div class="title-section">
+            <h2>| SOBRE</h2>
+          </div>
+          <div class="personal-information">
+            <div class="personal-information__wrapper">
+              <ul class="personal-information__list">
+                <li class="personal-information__item">
+                  <span class="personal-information__title">NOME</span>
+                  <p class="personal-information__text">RAGNAR LOTHBROK</p>
+                </li>
+                <li class="personal-information__item">
+                  <span class="personal-information__title">IDADE</span>
+                  <p class="personal-information__text">33 ANOS</p>
+                </li>
+                <li class="personal-information__item">
+                  <span class="personal-information__title">PROFISSÃO</span>
+                  <p class="personal-information__text">
+                    DESENVOLVEDOR FULLSTACK
+                  </p>
+                </li>
+                <li class="personal-information__item">
+                  <span class="personal-information__title">NATURALIDADE</span>
+                  <p class="personal-information__text">ITAJAÍ/SC</p>
+                </li>
+                <li class="personal-information__item">
+                  <span class="personal-information__title">NACIONALIDADE</span>
+                  <p class="personal-information__text">BRASILEIRO</p>
+                </li>
+                <li class="personal-information__item">
+                  <span class="personal-information__title">GITHUB</span>
+                  <p class="personal-information__text">
+                    WWW.GITHUB.COM/RAGNAR
+                  </p>
+                </li>
+              </ul>
+              <div class="personal-information__button">
+                <button class="button">CURRÍCULO</button>
+              </div>
+            </div>
+            <div class="about-image">
+              <img
+                class="about-image__image"
+                src="img/ragnar-sobre.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-portfolio" id="portfolio">
+        <div class="section-portfolio__wrapper">
+          <div class="title-section">
+            <h2>| PORTIFÓLIO</h2>
+          </div>
+          <div class="section-portfolio__content">
+            <div class="buttons-wrapper">
+              <ul class="buttons-list">
+                <li class="buttons-list__item">
+                  <button
+                    class="button-portfolio button-portfolio--active"
+                    type="button"
+                    data-category="BackEnd"
+                  >
+                    <i class="fa-solid fa-code"></i>
+                    <span class="button-portfolio__text button-portfolio__text--active">BACK-END</span>
+                  </button>
+                </li>
+                <li class="buttons-list__item">
+                  <button 
+                    class="button-portfolio" 
+                    type="button" 
+                    data-category="FrontEnd"
+                  >
+                    <i class="iconsThirdArticle fa-solid fa-palette"></i>
+                    <span class="button-portfolio__text">FRONT-END</span>
+                  </button>
+                </li>
+                <li class="buttons-list__item">
+                  <button 
+                    class="button-portfolio" 
+                    type="button"
+                    data-category="Photoshop"
+                  >
+                    <i class="iconsThirdArticle fa-solid fa-camera"></i>
+                    <span class="button-portfolio__text">PHOTOSHOP</span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div class="image-tables-wrapper">
+              <div class="image-tables">
+                <div class="image-table">
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-1.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-3.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-4.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-7.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-6.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item image-table__item--disabled">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-7.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="image-table">
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-1.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-3.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-4.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-7.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-6.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item image-table__item--disabled">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-7.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="image-table">
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-1.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-3.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-4.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-7.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-6.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="image-table__item image-table__item--disabled">
+                    <img
+                      class="image-table__image"
+                      src="img/portfolio-website-7.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-portfolio__button">
+            <button id="portfolio-button" class="button">MAIS</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-skills" id="skills">
+        <div class="section-skills__wrapper">
+          <div class="title-section">
+            <h2>| SKILLS</h2>
+          </div>
+          <div class="skills-list">
+            <figure class="skill-card">
+              <span class="skill-card__title">HTML</span>
+              <img class="skill-card__image" src="img/html.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">CSS</span>
+              <img class="skill-card__image" src="img/css.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">C#</span>
+              <img class="skill-card__image" src="img/csharp.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">JavaScript</span>
+              <img class="skill-card__image" src="img/javascript.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">.Net Core</span>
+              <img class="skill-card__image" src="img/netcore.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star-half fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">TypeScript</span>
+              <img class="skill-card__image" src="img/ts.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star-half fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">React</span>
+              <img class="skill-card__image" src="img/react.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star-half fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">VS Code</span>
+              <img class="skill-card__image" src="img/vscode.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star-half fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">GIT</span>
+              <img class="skill-card__image" src="img/git.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star-half fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">PostgreSQL</span>
+              <img class="skill-card__image" src="img/postgresql.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">Webpack</span>
+              <img class="skill-card__image" src="img/webpack.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">Nginx</span>
+              <img class="skill-card__image" src="img/nginx.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">Ubuntu</span>
+              <img class="skill-card__image" src="img/ubuntu.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">AWS</span>
+              <img class="skill-card__image" src="img/aws.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+                <i class="fa-solid fa-star fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">Photoshop</span>
+              <img class="skill-card__image" src="img/photoshop.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+              </div>
+            </figure>
+            <figure class="skill-card">
+              <span class="skill-card__title">Figma</span>
+              <img class="skill-card__image" src="img/figma.png" alt="" />
+              <div class="skill-card__level">
+                <i class="fa-solid fa-star fa-2xs"></i>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-experience" id="experience">
+        <div class="section-experience__wrapper">
+          <div class="title-section">
+            <h2>| EXPERIÊNCIA</h2>
+          </div>
+          <div class="experience-informations">
+            <ul class="experiences-list">
+              <li class="experience-list__item-hidden">
+                <div class="list-item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2012 - 2014</span>
+                  </div>
+                  <span class="list-item__title">GOOGLE</span>
+                  <p class="list-item__text">
+                    Estágio na Google atuando na equipe de desenvolvimento de
+                    ferramentas para o ADS.
+                  </p>
+                </div>
+              </li>
+              <li class="experience-list__item-hidden">
+                <div class="list-item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2012 - 2014</span>
+                  </div>
+                  <span class="list-item__title">GOOGLE</span>
+                  <p class="list-item__text">
+                    Estágio na Google atuando na equipe de desenvolvimento de
+                    ferramentas para o ADS.
+                  </p>
+                </div>
+              </li>
+              <li class="experience-list__item-hidden">
+                <div class="list-item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2012 - 2014</span>
+                  </div>
+                  <span class="list-item__title">GOOGLE</span>
+                  <p class="list-item__text">
+                    Estágio na Google atuando na equipe de desenvolvimento de
+                    ferramentas para o ADS.
+                  </p>
+                </div>
+              </li>
+              <li class="experience-list__item">
+                <div class="list-item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2012 - 2014</span>
+                  </div>
+                  <span class="list-item__title">GOOGLE</span>
+                  <p class="list-item__text">
+                    Estágio na Google atuando na equipe de desenvolvimento de
+                    ferramentas para o ADS.
+                  </p>
+                </div>
+              </li>
+              <li class="experience-list__item">
+                <div class="list-item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2014 - 2018</span>
+                  </div>
+                  <span class="list-item__title">BOOKING</span>
+                  <p class="list-item__text">
+                    Cargo de desenvolvedor junior na equipe de desenvolvimento
+                    back end.
+                  </p>
+                </div>
+              </li>
+              <li class="experience-list__item">
+                <div class="list-item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2018 - 2021</span>
+                  </div>
+                  <span class="list-item__title">FACEBOOK</span>
+                  <p class="list-item__text">
+                    Cargo de desenvolvedor pleno na equipe de criação da
+                    biblioteca React.
+                  </p>
+                </div>
+              </li>
+              <li class="experience-list__item">
+                <div class="list-item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2021 - Trabalhando</span>
+                  </div>
+                  <span class="list-item__title">TWITTER</span>
+                  <p class="list-item__text">
+                    Cargo de desenvolvedor sênior na equipe de criação do
+                    aplicativo X.
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <div class="experience-table">
+              <div class="experience-table__row">
+                <div class="experience-table__item">
+                  <span class="experience-table__number">9</span>
+                  <span class="experience-table__text"
+                    >ANOS DE EXPERIÊNCIA</span
+                  >
+                </div>
+                <div class="experience-table__item">
+                  <span class="experience-table__number">16</span>
+                  <span class="experience-table__text"
+                    >PROJETOS INDIVIDUAIS</span
+                  >
+                </div>
+              </div>
+              <div class="experience-table__row">
+                <div class="experience-table__item">
+                  <span class="experience-table__number">72</span>
+                  <span class="experience-table__text">PROJETOS EM EQUIPE</span>
+                </div>
+                <div class="experience-table__item">
+                  <span class="experience-table__number">87</span>
+                  <span class="experience-table__text"
+                    >CURSOS DE ESPECIALIZAÇÃO</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-portfolio__button">
+            <button class="button" id="experience-button">MAIS</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-education" id="education">
+        <div class="section-education__wrapper">
+          <div class="title-section">
+            <h2>| EDUCAÇÃO</h2>
+          </div>
+          <div class="table-education">
+            <div class="table-education__header">
+              <div class="table-education__header-col">
+                <span class="table-education__title"
+                  >BACHARELADO E PÓS-GRADUAÇÃO</span
+                >
+              </div>
+              <div class="table-education__header-col">
+                <span class="table-education__title"
+                  >CURSO DE ESPECIALIZAÇÃO</span
+                >
+              </div>
+              <div class="table-education__header-col">
+                <span class="table-education__title"
+                  >CURSO DE ESPECIALIZAÇÃO</span
+                >
+              </div>
+            </div>
+            <div class="table-education__body">
+              <div class="table-education__row">
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2012 - 2016</span>
+                  </div>
+                  <span class="list-item__title">COMPUTAÇÃO APLICADA</span>
+                  <p class="list-item__text">
+                    Mestrado em Computação Aplicada pela UFSP
+                  </p>
+                </div>
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2023 - Trabalhando</span>
+                  </div>
+                  <span class="list-item__title">FullStack</span>
+                  <p class="list-item__text">
+                    Curso de formação FullStack ministrado por Jackson Camara.
+                    Total de 500 horas concluídas.
+                  </p>
+                </div>
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2021 - Trabalhando</span>
+                  </div>
+                  <span class="list-item__title">INGLÊS</span>
+                  <p class="list-item__text">
+                    Curso de Inglês particular. Nível c2
+                  </p>
+                </div>
+              </div>
+              <div class="table-education__row">
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2012 - 2016</span>
+                  </div>
+                  <span class="list-item__title">BIG DATA</span>
+                  <p class="list-item__text">
+                    Pós graduado em Big Data pela UFSC
+                  </p>
+                </div>
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2021 - 2022</span>
+                  </div>
+                  <span class="list-item__title">BACKEND</span>
+                  <p class="list-item__text">
+                    Curso de formação BackEnd ministrado por Jackson Camara.
+                    Total de 500 horas concluídas.
+                  </p>
+                </div>
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2020 - 2021</span>
+                  </div>
+                  <span class="list-item__title">INGLÊS</span>
+                  <p class="list-item__text">
+                    Curso de Inglês na Wizard. Níveis b2, c1
+                  </p>
+                </div>
+              </div>
+              <div class="table-education__row">
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2012 - 2016</span>
+                  </div>
+                  <span class="list-item__title">CIÊNCIA DA COMPUTAÇÃO</span>
+                  <p class="list-item__text">
+                    Bracharelado em Ciência da Computação pela Univali
+                  </p>
+                </div>
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2019 - 2020</span>
+                  </div>
+                  <span class="list-item__title">FRONTEND</span>
+                  <p class="list-item__text">
+                    Curso de formação FrontEnd ministrado por Jackson Camara.
+                    Total de 500 horas concluídas.
+                  </p>
+                </div>
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2017 - 2019</span>
+                  </div>
+                  <span class="list-item__title">INGLÊS</span>
+                  <p class="list-item__text">
+                    Curso de Inglês na Univali Idiomas. Níveis a1, a2, b1
+                  </p>
+                </div>
+              </div>
+              <div class="table-education__row-hidden">
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2012 - 2016</span>
+                  </div>
+                  <span class="list-item__title">CIÊNCIA DA COMPUTAÇÃO</span>
+                  <p class="list-item__text">
+                    Bracharelado em Ciência da Computação pela Univali
+                  </p>
+                </div>
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2019 - 2020</span>
+                  </div>
+                  <span class="list-item__title">FRONTEND</span>
+                  <p class="list-item__text">
+                    Curso de formação FrontEnd ministrado por Jackson Camara.
+                    Total de 500 horas concluídas.
+                  </p>
+                </div>
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2017 - 2019</span>
+                  </div>
+                  <span class="list-item__title">INGLÊS</span>
+                  <p class="list-item__text">
+                    Curso de Inglês na Univali Idiomas. Níveis a1, a2, b1
+                  </p>
+                </div>
+              </div>
+              <div class="table-education__row-hidden">
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2012 - 2016</span>
+                  </div>
+                  <span class="list-item__title">CIÊNCIA DA COMPUTAÇÃO</span>
+                  <p class="list-item__text">
+                    Bracharelado em Ciência da Computação pela Univali
+                  </p>
+                </div>
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2019 - 2020</span>
+                  </div>
+                  <span class="list-item__title">FRONTEND</span>
+                  <p class="list-item__text">
+                    Curso de formação FrontEnd ministrado por Jackson Camara.
+                    Total de 500 horas concluídas.
+                  </p>
+                </div>
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2017 - 2019</span>
+                  </div>
+                  <span class="list-item__title">INGLÊS</span>
+                  <p class="list-item__text">
+                    Curso de Inglês na Univali Idiomas. Níveis a1, a2, b1
+                  </p>
+                </div>
+              </div>
+              <div class="table-education__row-hidden">
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2012 - 2016</span>
+                  </div>
+                  <span class="list-item__title">CIÊNCIA DA COMPUTAÇÃO</span>
+                  <p class="list-item__text">
+                    Bracharelado em Ciência da Computação pela Univali
+                  </p>
+                </div>
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2019 - 2020</span>
+                  </div>
+                  <span class="list-item__title">FRONTEND</span>
+                  <p class="list-item__text">
+                    Curso de formação FrontEnd ministrado por Jackson Camara.
+                    Total de 500 horas concluídas.
+                  </p>
+                </div>
+                <div class="table-education__item">
+                  <div class="date-range">
+                    <i class="date-range__icon fa-solid fa-calendar-days"></i>
+                    <span class="date-range__text">2017 - 2019</span>
+                  </div>
+                  <span class="list-item__title">INGLÊS</span>
+                  <p class="list-item__text">
+                    Curso de Inglês na Univali Idiomas. Níveis a1, a2, b1
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-education__button">
+            <button id="education-button" class="button">MAIS</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-contact" id="contact">
+        <div class="section-contact__wrapper">
+          <div class="title-section">
+            <h2>| CONTATO</h2>
+          </div>
+          <div class="contact">
+            <div class="contact-informations">
+              <ul class="contact-list">
+                <li class="contact-list__item">
+                  <div class="contact-list__icon-wrapper">
+                    <i class="fa-regular fa-envelope"></i>
+                  </div>
+                  <div class="contact-list__content">
+                    <span class="contact-list__title">EMAIL</span>
+                    <span class="contact-list__text">meuemail@gmail.com</span>
+                  </div>
+                </li>
+                <li class="contact-list__item">
+                  <div class="contact-list__icon-wrapper">
+                    <i class="fa-solid fa-phone fa-rotate-270"></i>
+                  </div>
+                  <div class="contact-list__content">
+                    <span class="contact-list__title">TELEFONE</span>
+                    <span class="contact-list__text">47 9 9999-9999</span>
+                  </div>
+                </li>
+                <li class="contact-list__item">
+                  <a
+                    href="https://api.whatsapp.com/send?phone=+5547996188328&text=Ol%C3%A1,%20tudo%20bem?"
+                    target="_blank"
+                  >
+                    <div class="contact-list__icon-wrapper">
+                      <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                  </a>
+                  <div class="contact-list__content">
+                    <span class="contact-list__title">WHATSAPP</span>
+                    <span class="contact-list__text">47 9 9999-9999</span>
+                  </div>
+                </li>
+                <li class="contact-list__item">
+                  <div class="contact-list__icon-wrapper">
+                    <i class="fa-brands fa-telegram"></i>
+                  </div>
+                  <div class="contact-list__content">
+                    <span class="contact-list__title">TELEGRAM</span>
+                    <span class="contact-list__text">47 9 9999-9999</span>
+                  </div>
+                </li>
+                <li class="contact-list__item">
+                  <div class="contact-list__icon-wrapper">
+                    <i class="fa-brands fa-skype"></i>
+                  </div>
+                  <div class="contact-list__content">
+                    <span class="contact-list__title">SKYPE</span>
+                    <span class="contact-list__text">meuskype</span>
+                  </div>
+                </li>
+              </ul>
+              <div class="social-media">
+                <ul class="social-media__list">
+                  <li class="social-media__item">
+                    <a
+                      class="social-media__link"
+                      href="https://www.linkedin.com"
+                      target="_blank"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li class="social-media__item">
+                    <a
+                      class="social-media__link"
+                      href="https://www.twitter.com"
+                      target="_blank"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li class="social-media__item">
+                    <a
+                      class="social-media__link"
+                      href="https://www.instagram.com"
+                      target="_blank"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li class="social-media__item">
+                    <a
+                      class="social-media__link"
+                      href="https://www.youtube.com"
+                      target="_blank"
+                      ><i class="fa-brands fa-youtube"></i
+                    ></a>
+                  </li>
+                  <li class="social-media__item">
+                    <a
+                      class="social-media__link"
+                      href="https://www.facebook.com"
+                      target="_blank"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="contact__form-message">
+              <form
+                id="contact-form"
+                class="form-message"
+                action="https://formsubmit.co/ajax/odmilsonjr@gmail.com""
+                method="POST"
+                data-form
+              >
+                <input
+                  class="form-message__input"
+                  type="text"
+                  name="nome"
+                  id="name"
+                  placeholder="NOME"
+                  required
+                />
+                <input
+                  class="form-message__input"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="EMAIL"
+                  required
+                />
+                <input
+                  class="form-message__input"
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="TELEFONE"
+                  required
+                />
+                <input
+                  class="form-message__input"
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  placeholder="ASSUNTO"
+                  required
+                />
+                <textarea
+                  class="form-message__textarea"
+                  placeholder="MENSAGEM"
+                  id="message"
+                  name="mensagem"
+                  rows="6"
+                  cols="50"
+                  required
+                ></textarea>
+                <div class="form-message__button">
+                  <button class="button" type="submit" data-button>ENVIAR</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/header.js"></script>
+    <script src="js/experience.js"></script>
+    <script src="js/education.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script defer src="js/contact.js"></script>
+  </body>
+</html>

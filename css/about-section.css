@@ -1,0 +1,80 @@
+.section-about{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    padding-left: 10%;
+    padding-top: 7vw;
+    transition-duration: 1s;
+    scroll-behavior: smooth;
+}
+
+.section-about__wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.541666666666667vw;
+}
+
+.personal-information{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-information__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.personal-information__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8vmax;
+}
+
+.personal-information__item{
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-information__title{
+    font-size: clamp(16px, .9895833334vw, 2rem);
+    color: #c4c4c4;
+}
+
+.personal-information__text{
+    font-size: clamp(20px, 1.510416667vw, 2.3rem);;
+    color: #fff;
+}
+
+.personal-information__button{
+
+}
+
+.about-image{
+    width: 47vw;
+}
+
+.about-image__image{
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .section-about{
+        padding-top: 10vmax;
+    }
+
+    .personal-information{
+        flex-direction: column;
+        row-gap: 3vmax;
+    }
+
+    .about-image{
+        width: 100%;
+    }
+
+    .personal-information__wrapper{
+        row-gap: 1.5vmax;
+    }
+}
